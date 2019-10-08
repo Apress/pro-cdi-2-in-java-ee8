@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<artifactId>chapter5-events</artifactId>
+		<groupId>org.omnifaces.procdi</groupId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>149-fire-event</artifactId>
+	<name>Chapter 5 - page 149 - Fire event</name>
+
+	<profiles>
+		<profile>
+			<id>weld</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+
+			<dependencies>
+				<dependency>
+					<groupId>org.jboss.weld.se</groupId>
+					<artifactId>weld-se-core</artifactId>
+					<version>3.1.2.Final</version>
+				</dependency>
+			</dependencies>
+		</profile>
+	</profiles>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.6.0</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<executable>java</executable>
+					<arguments>
+						<argument>-classpath</argument>
+						<classpath/>
+						<argument>org.omnifaces.procdi.events.fire.EventFiringDemo</argument>
+					</arguments>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
