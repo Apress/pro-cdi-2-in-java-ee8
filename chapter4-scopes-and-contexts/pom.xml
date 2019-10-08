@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<artifactId>pro-cdi-2-in-javaee8</artifactId>
+		<groupId>org.omnifaces.procdi</groupId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>scopes</artifactId>
+	<packaging>pom</packaging>
+
+	<name>Chapter 4 - Scopes and Contexts</name>
+	<modules>
+		<module>109-programmatic-request-scope-activation</module>
+		<module>110-interceptor-request-scope-activation</module>
+		<module>116-exposing-nonproxyable-types</module>
+		<module>119-scope-events</module>
+		<module>128-custom-scope</module>
+		<module>136-passivation-capable-custom-scope</module>
+		<module>scopes-common</module>
+		<module>138-overriding-built-in-scope</module>
+	</modules>
+
+</project>
