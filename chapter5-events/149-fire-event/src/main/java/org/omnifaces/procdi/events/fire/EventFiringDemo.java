@@ -9,8 +9,6 @@ public class EventFiringDemo {
 			var eventFiringBean = container.select(EventFiringBean.class).get();
 
 			eventFiringBean.fireEvent("test event");
-
-			eventFiringBean.fireEventThroughBeanManager();
 		}
 	}
 }
