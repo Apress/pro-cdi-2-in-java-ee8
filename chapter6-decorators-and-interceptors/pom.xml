@@ -9,7 +9,7 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>decorators-and-interceptors</artifactId>
-
+	<artifactId>chapter6-decorators-and-interceptors</artifactId>
+	<name>Chapter 6 - Decorators and Interceptors</name>
 
 </project>
