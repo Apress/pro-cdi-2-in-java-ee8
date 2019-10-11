@@ -10,12 +10,12 @@
 	</prerequisites>
 	<modules>
 		<module>chapter2-beans</module>
+		<module>chapter3-identifying-beans</module>
 		<module>chapter4-scopes-and-contexts</module>
 		<module>chapter5-events</module>
-		<module>decorators-and-interceptors</module>
-		<module>javase</module>
-		<module>identifyingbeans</module>
-		<module>dynamicbeans</module>
+		<module>chapter6-decorators-and-interceptors</module>
+		<module>chapter7-dynamic-beans</module>
+		<module>chapter8-cdi-in-java-se</module>
 	</modules>
 
 	<groupId>org.omnifaces.procdi</groupId>
