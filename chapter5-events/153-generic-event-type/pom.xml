@@ -10,6 +10,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>153-generic-event-type</artifactId>
+	<name>Chapter 5 - page 153 - Generic event types example</name>
 
 	<profiles>
 		<profile>
