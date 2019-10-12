@@ -6,3 +6,4 @@ This module contains the source code for the examples from chapter 5 of the book
 
  * [Observer ordering](145-observer-ordering)
  * [Event metadata](147-event-metadata)
+ * [Firing events](149-fire-event)

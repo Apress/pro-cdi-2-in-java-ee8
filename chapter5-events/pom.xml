@@ -16,5 +16,6 @@
 	<modules>
 		<module>145-observer-ordering</module>
 		<module>147-event-metadata</module>
+		<module>149-fire-event</module>
 	</modules>
 </project>
