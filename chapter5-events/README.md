@@ -8,3 +8,4 @@ This module contains the source code for the examples from chapter 5 of the book
  * [Event metadata](147-event-metadata)
  * [Firing events](149-fire-event)
  * [Firing events using BeanManager](150-fire-event-using-beanmanager)
+ * [Wrapping generic event objects](153-generic-event-type)

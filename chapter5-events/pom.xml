@@ -18,5 +18,6 @@
 		<module>147-event-metadata</module>
 		<module>149-fire-event</module>
 		<module>150-fire-event-using-beanmanager</module>
+		<module>153-generic-event-type</module>
 	</modules>
 </project>
