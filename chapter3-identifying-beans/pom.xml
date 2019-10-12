@@ -9,7 +9,7 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>javase</artifactId>
-
+	<artifactId>chapter3-identifying-beans</artifactId>
+	<name>Chapter 3 - Identifying Beans</name>
 
 </project>

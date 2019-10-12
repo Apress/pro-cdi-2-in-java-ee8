@@ -9,7 +9,7 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>identifyingbeans</artifactId>
-
+	<artifactId>chapter8-cdi-in-java-se</artifactId>
+	<name>Chapter 8 - CDI in Java SE</name>
 
 </project>
