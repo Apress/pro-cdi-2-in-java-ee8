@@ -20,5 +20,6 @@
 		<module>150-fire-event-using-beanmanager</module>
 		<module>153-generic-event-type</module>
 		<module>159-asynchronous-events</module>
+		<module>163-async-completion-stage</module>
 	</modules>
 </project>
