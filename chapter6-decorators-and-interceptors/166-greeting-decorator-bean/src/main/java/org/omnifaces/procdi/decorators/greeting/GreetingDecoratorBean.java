@@ -9,7 +9,7 @@ import javax.decorator.Delegate;
 import javax.inject.Inject;
 
 @Decorator
-public class GreetingDecoratorBean extends GreetingBean {
+public abstract class GreetingDecoratorBean implements GreetingInterface {
 
 	private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofLocalizedTime(FormatStyle.FULL);
 
