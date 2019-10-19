@@ -10,6 +10,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>168-qualified-delegate</artifactId>
+	<name>Chapter 6 - page 168 - Decorator with qualified delegate example</name>
 
 	<profiles>
 		<profile>
