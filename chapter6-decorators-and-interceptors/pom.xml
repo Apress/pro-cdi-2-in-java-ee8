@@ -14,6 +14,7 @@
 	<name>Chapter 6 - Decorators and Interceptors</name>
 	<modules>
 		<module>166-greeting-decorator-bean</module>
+		<module>168-qualified-delegate</module>
 	</modules>
 
 </project>
