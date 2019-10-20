@@ -1,0 +1,5 @@
+<beans xmlns="http://java.sun.com/xml/ns/javaee">
+	<interceptors>
+		<class>org.omnifaces.procdi.interceptors.parameters.UpdateParametersInterceptor</class>
+	</interceptors>
+</beans>
