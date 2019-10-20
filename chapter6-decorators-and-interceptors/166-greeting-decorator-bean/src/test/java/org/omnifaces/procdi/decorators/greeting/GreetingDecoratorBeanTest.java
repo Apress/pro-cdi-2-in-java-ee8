@@ -1,33 +1,22 @@
 package org.omnifaces.procdi.decorators.greeting;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import javax.enterprise.inject.se.SeContainer;
-import javax.enterprise.inject.se.SeContainerInitializer;
+import javax.inject.Inject;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.omnifaces.procdi.common.testing.CdiTestExtension;
 
+@ExtendWith(CdiTestExtension.class)
 class GreetingDecoratorBeanTest {
 
-	private SeContainer container;
-
-	@BeforeEach
-	private void init() {
-		container = SeContainerInitializer.newInstance().initialize();
-	}
+	@Inject
+	private GreetingBean greetingBean;
 
 	@Test
 	void getGreetingMessage() {
-		var greetingBean = container.select(GreetingBean.class).get();
-
 		var greeting = greetingBean.getGreetingMessage("world");
 		assertTrue(greeting.startsWith("Hello, world! The time is now"));
-	}
-
-	@AfterEach
-	private void cleanUp() {
-		container.close();
 	}
 }

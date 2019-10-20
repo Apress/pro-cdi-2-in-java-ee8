@@ -9,20 +9,11 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>chapter6-decorators-and-interceptors</artifactId>
+	<artifactId>common</artifactId>
 	<packaging>pom</packaging>
-	<name>Chapter 6 - Decorators and Interceptors</name>
 	<modules>
-		<module>166-greeting-decorator-bean</module>
-		<module>168-qualified-delegate</module>
+		<module>testing</module>
 	</modules>
 
-	<dependencies>
-		<dependency>
-			<groupId>org.omnifaces.procdi</groupId>
-			<artifactId>testing</artifactId>
-			<version>${project.version}</version>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
+
 </project>

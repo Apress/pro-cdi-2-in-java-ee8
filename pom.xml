@@ -16,6 +16,7 @@
 		<module>chapter6-decorators-and-interceptors</module>
 		<module>chapter7-dynamic-beans</module>
 		<module>chapter8-cdi-in-java-se</module>
+		<module>common</module>
 	</modules>
 
 	<groupId>org.omnifaces.procdi</groupId>

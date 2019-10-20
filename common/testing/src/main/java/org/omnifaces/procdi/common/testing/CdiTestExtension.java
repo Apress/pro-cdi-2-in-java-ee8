@@ -1,4 +1,4 @@
-package org.omnifaces.procdi.decorators.greeting.qualified;
+package org.omnifaces.procdi.common.testing;
 
 import java.util.UUID;
 
