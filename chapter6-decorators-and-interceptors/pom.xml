@@ -17,6 +17,7 @@
 		<module>168-qualified-delegate</module>
 		<module>175-override-method-result</module>
 		<module>175-caching-interceptor</module>
+		<module>176-update-parameters</module>
 	</modules>
 
 	<dependencies>
