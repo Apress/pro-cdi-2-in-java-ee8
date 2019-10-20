@@ -1,0 +1,5 @@
+<beans xmlns="http://java.sun.com/xml/ns/javaee">
+	<interceptors>
+		<class>org.omnifaces.procdi.interceptors.caching.CachingInterceptor</class>
+	</interceptors>
+</beans>
