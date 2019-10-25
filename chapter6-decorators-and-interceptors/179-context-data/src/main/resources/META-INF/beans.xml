@@ -1,0 +1,7 @@
+<beans xmlns="http://java.sun.com/xml/ns/javaee">
+	<interceptors>
+		<class>org.omnifaces.procdi.interceptors.context.store.ContextDataWritingInterceptor</class>
+		<class>org.omnifaces.procdi.interceptors.context.store.SleepInterceptor</class>
+		<class>org.omnifaces.procdi.interceptors.context.store.ContextDataReadingInterceptor</class>
+	</interceptors>
+</beans>
