@@ -19,6 +19,7 @@
 		<module>175-caching-interceptor</module>
 		<module>176-update-parameters</module>
 		<module>179-context-data</module>
+		<module>185-constructor-interceptors</module>
 	</modules>
 
 	<dependencies>
