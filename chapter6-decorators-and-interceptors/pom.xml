@@ -20,6 +20,7 @@
 		<module>176-update-parameters</module>
 		<module>179-context-data</module>
 		<module>185-constructor-interceptors</module>
+		<module>186-interceptors-and-producers</module>
 	</modules>
 
 	<dependencies>
