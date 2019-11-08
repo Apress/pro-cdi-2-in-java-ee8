@@ -10,7 +10,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>166-greeting-decorator-bean</artifactId>
-	<name>Chapter 6 - page 166 - 167 - Greeting Decorator Bean</name>
+	<name>Chapter 6 - page 166 - 167 - Writing a decorator</name>
 
 	<profiles>
 		<profile>
