@@ -10,6 +10,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>chapter8-cdi-in-java-se</artifactId>
+	<packaging>pom</packaging>
 	<name>Chapter 8 - CDI in Java SE</name>
+	<modules>
+		<module>217-bootstrapping-cdi</module>
+	</modules>
 
 </project>
