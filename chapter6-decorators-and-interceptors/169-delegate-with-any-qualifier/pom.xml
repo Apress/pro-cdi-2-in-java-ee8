@@ -9,7 +9,7 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>168-qualified-delegate</artifactId>
+	<artifactId>169-delegate-with-any-qualifier</artifactId>
 	<name>Chapter 6 - page 169 - Decorator with delegate qualified with @Any</name>
 
 	<profiles>
