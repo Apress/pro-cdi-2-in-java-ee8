@@ -1,0 +1,5 @@
+<beans xmlns="http://java.sun.com/xml/ns/javaee">
+	<decorators>
+		<class>org.omnifaces.procdi.decorators.greeting.qualified.any.GreetingDecoratorBean</class>
+	</decorators>
+</beans>

@@ -6,6 +6,7 @@ This module contains the source code for the examples from chapter 6 of the book
 
  * [Writing a decorator](166-greeting-decorator-bean)
  * [Decorator with qualified decorator](168-qualified-delegate)
+ * [Decorator with delegate annotated with @Any](169-delegate-with-any-qualifier)
  * [Caching interceptor](175-caching-interceptor)
  * [Overwrite method result in an interceptor](175-override-method-result)
  * [Updating method parameters in an interceptor](176-update-parameters)
